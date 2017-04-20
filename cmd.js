@@ -18,6 +18,7 @@ module.exports = {
 
         var value = '';
 
+
         proc.stdout.on('data',(data) =>{
             
             debug("Got some data for " + paramString);
